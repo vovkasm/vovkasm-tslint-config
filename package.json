@@ -16,5 +16,13 @@
     "standardjs"
   ],
   "author": "Vladimir Timofeev <vovkasm@gmail.com>",
+  "homepage": "https://github.com/vovkasm/vovkasm-tslint-config",
+  "bugs": {
+    "url": "https://github.com/vovkasm/vovkasm-tslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vovkasm/vovkasm-tslint-config.git"
+  },
   "license": "MIT"
 }
