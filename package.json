@@ -1,6 +1,6 @@
 {
   "name": "@vovkasm/tslint-config",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Mostly standard js config",
   "main": "index.js",
   "scripts": {
