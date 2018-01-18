@@ -3,6 +3,8 @@ var commonRules = {
   'curly': {
     options: [ 'ignore-same-line' ],
   },
+  'import-spacing': true,
+  'member-access': false,
   'no-irregular-whitespace': true,
   'only-arrow-functions': false,
   'quotemark': {
@@ -28,6 +30,9 @@ var commonRules = {
         'allow-leading-underscore',
         'allow-pascal-case',
     ],
+  },
+  'whitespace': {
+    options: ['check-decl', 'check-module', 'check-separator']
   },
 }
 
