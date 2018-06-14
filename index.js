@@ -1,28 +1,14 @@
 var commonRules = {
   'binary-expression-operand-order': true,
-  'curly': {
-    options: [ 'ignore-same-line' ],
-  },
+  'curly': { options: [ 'ignore-same-line' ] },
   'import-spacing': true,
   'member-access': false,
   'no-irregular-whitespace': true,
+  'object-literal-key-quotes': { options: ['as-needed'] },
   'only-arrow-functions': false,
-  'quotemark': {
-    options: [ 'single', 'avoid-escape' ],
-  },
+  'quotemark': { options: [ 'single', 'avoid-escape', 'jsx-double' ] },
   'semicolon': { options: 'never' },
-  'space-before-function-paren': {
-    options: {
-        anonymous: 'always',
-        asyncArrow: 'always',
-        constructor: 'always',
-        method: 'always',
-        named: 'always',
-    },
-  },
-  'triple-equals': {
-    options: ['allow-null-check'],
-  },
+  'triple-equals': { options: ['allow-null-check'] },
   'variable-name': {
     options: [
         'ban-keywords',
