@@ -8,6 +8,19 @@ var commonRules = {
   'only-arrow-functions': false,
   'quotemark': { options: [ 'single', 'avoid-escape', 'jsx-double' ] },
   'semicolon': { options: 'never' },
+  'trailing-comma': {
+    options: {
+      multiline: {
+        arrays: 'always',
+        exports: 'always',
+        functions: 'ignore',
+        imports: 'always',
+        objects: 'always',
+        typeLiterals: 'ignore'
+      },
+      singleline: 'never'
+    }
+  },
   'triple-equals': { options: ['allow-null-check'] },
   'variable-name': {
     options: [
